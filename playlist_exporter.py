@@ -4,6 +4,7 @@ Created on Mon Jun 27 14:03:42 2016
 
 """
 def lst2dir(lst,dst): 
+    """the 1st variable is playlist name and directory the other is directory of destination"""
     lst=raw(str(lst))
     dst=raw(str(dst))
     n=lst.split(".")[-1]
